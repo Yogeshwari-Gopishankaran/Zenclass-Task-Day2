@@ -1,0 +1,17 @@
+Windows:
+    =>  It represents a browser window or frame that displays the contents of the webpage.
+    => Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+    => Windows object is first thing loaded in the web browser.
+    => Window is the global element for all objects, functions, etc.
+    => We can access document object properties inside the window.
+    => SYNTAX:
+             window.property_name;
+     
+Document:
+   => A document is an object inside the window object.
+   => Document object isused for manipulation inside the document.
+   => It is loaded after the loading window because the window contains a document.
+   => It is the root element of the document object model.
+   => We can not access windows objects properties inside the document.
+   => SYNTAX:
+            document.property_name;
